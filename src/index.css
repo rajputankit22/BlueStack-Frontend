@@ -1,0 +1,148 @@
+html,
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f5fa !important;
+  font-family: "Baloo Paaji 2", cursive !important;
+}
+button {
+  text-transform: capitalize !important;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.srv-validation-message {
+  color: red;
+}
+
+.AttachmentCardChip {
+  margin: 1% 1% 1% 0% !important;
+}
+
+.first-title {
+  padding-top: 0 !important;
+}
+
+.form-inner-title {
+  color: #1ac6ff;
+  font-weight: bold;
+  font-size: 18px !important;
+  margin-bottom: 0;
+  padding-top: 5%;
+}
+
+.documnents-title {
+  margin-bottom: 3% !important;
+}
+
+.labels1 {
+  margin-left: 0px !important;
+  margin-right: 52px !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888a8e;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.sweet-loading {
+  display: block;
+  position: fixed;
+  z-index: 9999;
+  background: rgba(44, 52, 59);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 2s linear;
+}
+
+.sweet-loading .css-0 {
+  position: fixed;
+  top: 40%;
+  left: calc(50% - 35px);
+  z-index: 99999;
+}
+
+.Toastify__toast--success {
+  background-color: #4caf50 !important;
+}
+
+.Toastify__toast--warning {
+  background: #ff9800 !important;
+}
+
+.Toastify__toast {
+  min-height: 0 !important;
+  padding: 0 !important;
+  border-radius: 4px !important;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+.Toastify__close-button {
+  padding: 16px !important;
+  font-weight: 800 !important;
+}
+
+.Toastify__toast-body {
+  margin-left: 5% !important;
+  color: #fff;
+  font-weight: 800;
+}
+
+.sweet-alert button.cancel {
+  background-color: #1ac6ff !important;
+}
+.sweet-alert button.confirm {
+  background-color: #2c343b !important;
+}
+
+.titleDash {
+  color: #075065;
+  font-weight: bold;
+}
+/*
+.titleDash:after {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  right: 0;
+  top: 50%;
+  background-color: #ded6d6;
+  height: 0.1em;
+  min-height: 1px;
+  z-index: 1;
+}
+
+.titleDash:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  content: attr(data-content);
+  background-color: #f4f5fa;
+  color: #000;
+  z-index: 2;
+  padding-right: 0.5em;
+} */
