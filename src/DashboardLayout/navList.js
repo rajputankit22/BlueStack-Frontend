@@ -77,7 +77,7 @@ function NavList(props) {
     <>
       <List className={classes.NavList}>
 
-        <Link to="/App/AllEmployees">
+        <Link onClick={() => { props.fetchAllEmployees() }} to="/App/AllEmployees">
           <ListItem selected={props.pathname === "/App/AllEmployees" ? true : false} button >
             <ListItemIcon>
               <GroupAddOutlinedIcon />
